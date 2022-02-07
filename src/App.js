@@ -30,7 +30,7 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route path="/" element={<Login />} />
-                <Route path="/registe-r" element={<Register />} />
+                <Route path="/register" element={<Register />} />
                 <Route path="/wallet" element={<Wallet />} />
                 <Route path="/registry" element={<Registry />} />
                 <Route path="/registry/:id" element={<RegistryEdit />} />
