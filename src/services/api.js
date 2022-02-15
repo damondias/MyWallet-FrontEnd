@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://git.heroku.com/mywallet-backend-1.git/mywallet';
+const BASE_URL = `${process.env.REACT_APP_API_BASE_URL}/mywallet`;
 
 function createConfig(token) {
   return { headers: { Authorization: `Bearer ${token}` } };
